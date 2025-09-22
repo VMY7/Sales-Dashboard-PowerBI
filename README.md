@@ -1,6 +1,7 @@
 # Sales-Dashboard-PowerBI
 ## 🎯 Objectif
 Créer un dashboard interactif qui permet de suivre la performance commerciale d’une entreprise fictive : évolution des ventes, top produits, analyse régionale et performance des vendeurs.
+
 ---
 
 ## 📂 Étapes du projet
@@ -17,9 +18,13 @@ Créer un dashboard interactif qui permet de suivre la performance commerciale d
   - Coût (Quantité × PrixCoût)
   - Marge (Ventes – Coût)
 
+---
+
 ### 2. Préparation dans Power Query
 - Vérifier les types de données (date, numérique, texte).
 - Ajouter colonnes dérivées si besoin (ex. Année, Mois, Marge%).
+
+---
 
 ### 3. KPI & mesures DAX
 - `Total Ventes = SUM(Ventes)`
@@ -27,6 +32,7 @@ Créer un dashboard interactif qui permet de suivre la performance commerciale d
 - `Marge Totale = SUM(Marge)`
 - `Marge % = DIVIDE(SUM(Marge), SUM(Ventes))`
 - `Ventes Mois N-1, Croissance MoM (mesures temporelles).`
+---
 
 ### 4. Dashboard Power BI
 - Vue globale :
@@ -39,6 +45,8 @@ Créer un dashboard interactif qui permet de suivre la performance commerciale d
   - Carte ou bar chart par région.
 - Performance vendeurs :
   - Classement des commerciaux (ventes & marge).
+
+---
 
 ### 5. Storytelling métier
 - Répondre à des questions type :
